@@ -1,0 +1,316 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+                                        /* blue head */
+
+header{
+    width: 100%;
+    height: 3.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    word-spacing: .1rem;
+    letter-spacing: .02rem;
+    color: white;
+    background-image: linear-gradient(to bottom right, #00008a,#000000);
+    position: fixed;
+    z-index: 100;
+    top: 0px;
+}
+.headtext{
+    display: flex;
+    gap: 1.1rem;
+}
+.headtext span{
+    font-weight: bolder;
+    font-size: 1.2rem;
+}
+.headtext a{
+    color: white;
+}
+                                     /* close header */
+main{
+    width: 100%;
+    height: 100vh;
+    margin-top: 3.5rem;
+
+}
+main nav{
+    width: 100%;
+    padding: 1rem 1.5rem ;
+    display: flex;
+    justify-content: space-between;
+    background-color: transparent;
+    position: absolute;
+    position: fixed;
+    z-index: 1;
+    color: white;
+}
+main nav .logo{
+    width: 8rem;
+}
+                                                /* logo part */
+main nav .nav-1 ul{
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+}
+main nav .nav-1 ul li a{
+    text-decoration: none;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 1.08rem;
+    color: white;
+}
+main #menu{
+    display: none;
+} 
+
+main nav .icon{
+    font-size:1.5rem ;
+    display: flex;
+    gap: 1rem;
+}
+
+
+                                    /* first section */     
+main .sec1{
+    width: 100%;
+    height: 100vh;
+    background-color: beige;
+    position: relative;
+}
+.sec1 video{
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+}
+main .sec1 .price{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    color: white;
+    margin: 4rem 33rem;
+    align-items: center;
+}
+.price h1{
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.price p{
+    font-size: 1.3rem;
+}
+
+.botomctn{
+    position: absolute;
+    bottom: .5rem;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 4rem 25rem;
+    color: white;
+    gap: .5rem;
+    
+}
+.botomctn button{
+    padding: 0.7rem 4rem;
+    font-size: 1rem;
+    border: none;
+    font-weight: 600;
+    border-radius: 0.5rem;
+    color: #424141;
+}
+.botomctn #btn-2{
+    padding: 0.7rem 5.5rem;
+    margin-left: 1rem;
+    color: white;
+    background-color: #404040a6;
+}
+
+                                        /* secound section */
+main .sec2{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-color: beige;
+}
+.sec2 video{
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+}
+main .sec2 .price{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    color: white;
+    margin: 8rem 32.8rem;
+    align-items: center;
+}
+.sec2 .price h1{
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.sec2 .price p{
+    font-size: 1.3rem;
+}
+
+.sec2 .botomctn{
+    position: absolute;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1.5rem 25rem;
+    color: white;
+    /* gap: .5rem; */
+    
+}
+.sec2 .botomctn button{
+    padding: 0.7rem 4rem;
+    font-size: 1rem;
+    border: none;
+    font-weight: 600;
+    border-radius: 0.5rem;
+    color: #424141;
+}
+.sec2 .botomctn #btn-2{
+    padding: 0.7rem 5.5rem;
+    margin-left: 1rem;
+    color: white;
+    background-color: #404040a6;
+}
+                                                    /* section third */
+main .sec3{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-color: beige;
+}
+.sec3 img{
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+}
+main .sec3 .price{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    color: white;
+    margin: 8rem 30rem;
+    align-items: center;
+}
+.sec3 .price h1{
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.sec3 .price p{
+    font-size: 1.2rem;
+}
+
+.sec3 .botomctn{
+    position: absolute;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin: 1.5rem 28rem; */
+    color: white;
+    /* gap: .5rem; */
+    
+}
+.sec3 .botomctn button{
+    /* padding: 0.7rem 4rem; */
+    /* width: 15rem; */
+    font-size: 1rem;
+    border: none;
+    font-weight: 600;
+    border-radius: 0.5rem;
+    color: #424141;
+    text-transform: capitalize;
+}
+.sec3 .botomctn #btn-1{
+    padding: 0.7rem 6.5rem;
+
+}
+.sec3 .botomctn #btn-2{
+    /* padding: 0.7rem 5.5rem; */
+    margin-left: 1rem;
+    color: white;
+    background-color: #404040a6;
+}
+
+
+
+
+                                                        /* mobile */
+@media screen and (max-width:479px){
+    :root{
+        font-size:10px ;
+    }
+    header{
+    display: block;
+    height:9rem;
+    padding: 1rem;
+   }
+   .headtext{
+    flex-direction: column;
+    padding: .5rem;
+   }
+    .headtext span,p,a{
+    font-size: 1.2rem;
+    line-height: .6rem;
+    }
+    .headtext a{
+        margin-top: .5rem;
+    }
+    main{
+        margin-top: 8rem;
+    }
+    main nav .nav-1,.icon i{
+        display: none;
+    }
+    main nav{
+        width: 100%;
+        height: 4rem;
+        background-color: #cfcfcf;
+        display: flex;
+        align-items: center;
+    }
+    .logo{
+        font-size: 1.7rem;
+    }
+    nav #menu{
+        display: block;
+        background-color: rgba(0, 0, 0, 0.511);
+        padding: 1rem 1.3rem;
+        text-transform: capitalize;
+        border-radius: .2rem;
+    }
+
+       /* first sec1 */
+       main .sec1 .price{
+        margin: 4rem 12rem;
+       }
+
+       /* secound sec2 */
+       .botomctn{
+        margin: 4rem 12rem;
+       }
+       .botomctn button{
+        width: 100%;
+       }
+       .botomctn #btn-2 {
+        padding: .7rem 5.3rem;
+        margin-top: 1rem;
+        margin-left: 0rem;
+       }
+}
